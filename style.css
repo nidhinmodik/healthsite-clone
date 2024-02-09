@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+   
+}
+/* html ,body{
+    overflow-x: hidden;
+}  */
+/* custom colours */
+.purple1{
+    background:#44436c;
+    color: white;
+}
+.purple2{
+    background: #58578b;
+    background-color: #58578b;
+} 
+
+#header .row a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav{
+    width: 100%;
+    background:#44436c;
+    color: white;
+   
+}    
+
+.logotext h4{
+    
+    font-style: italic;
+    font-size: 35px;
+    word-spacing: 0px;
+    font-weight: 600;    
+    font-family: 'Playfair Display', serif;
+    
+}
+.logotext h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    word-spacing: 0px;
+    
+}
+.logotext p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#menu ul{
+    background-color: #44436c;
+    color: white;
+    text-align: center;
+    
+}
+#menu .dropdown-item:hover{
+    background-color: transparent;
+    
+}
+
+#menu ul li a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 8px;
+    
+}
+#hamburger{
+    color: white;
+    
+    
+}
+/* home */
+
+#home {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.178)),url('./images/homeimg_files/11062b_7d8d82eae2a14cf9891836867f4e9726~mv2.jpg');
+    width: 100%;
+    /* height: 800px; */
+    /* height: 100vh; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* object-fit: cover; */
+    
+}
+
+#cont1{
+    text-align: center;
+    padding-top: 50px;  
+    color: white;
+}
+#cont1 h1{
+    font-size: 88px;
+}
+#cont1 h2{
+    font-size: 44px;
+}
+
+/* wellness wheel */
+#wheel{
+    background-color: #44436c;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 50px;
+    
+}
+#wheel .image{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#wheel p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+#wheel h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#wheel h3{
+    font-size: 30px;
+}
+ #wheel #btn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #44436c;
+    font-size: 25px;
+    transition: 0.5s;
+    }
+ #wheel #btn:hover{
+    color: #44436c;
+    background-color: white;
+ }  
+  /*button group  */
+#buttongroup {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    z-index: 5;
+    left: 10%;
+    top: 1700px;
+ 
+}
+
+#buttongroup .btn{
+    margin: 20px;
+    width: 145px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    position: absolute;
+    
+    }
+
+    #btn1{
+    position: absolute;
+    left: 205px;
+    top: 10px;
+    }
+    #btn2{
+        position: absolute;
+        left: 70px;
+        top: 65px;
+        rotate: -45deg;
+    
+    }
+    #btn3{
+        position: absolute;
+        left: 340px;
+        top: 70px;
+        rotate: 45deg;
+    }
+    #btn4{
+        position: absolute;
+        top: 200px;
+        left: 1px;
+        rotate: -90deg;
+    }
+    #btn5{
+        position: absolute;
+        top: 200px;
+        left: 380px;
+        rotate: 90deg;
+    }
+    #btn6{
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        rotate: -130deg;
+    }
+    #btn7{
+        position: absolute;
+        top: 345px;
+        left: 340px;
+        rotate: 130deg;
+    }
+    #btn8{
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+
+ /* grid images */
+
+ /* grid1 */
+ 
+ #grid1 h1{
+    font-size: 88px;
+     }
+ #grid1 p{
+    font-size: 24px;
+    
+ }
+ #grid1 h1,p{
+    text-align: center;
+    color: white;
+    
+ }
+ 
+ 
+ #grid1 .card-body{
+    background-color: #58578b;
+    color: white;
+    text-align: center;
+ }
+ #grid2 .card-body{
+    background-color: #58578b;
+    color: white;
+    text-align: center;
+ }
+#grid3 .card-body{
+    background-color: #44436c;
+    color: white;
+    text-align: center;
+}
+#grid4 .card-body{
+background-color: #58578b;
+color: white;
+text-align: center;
+}
+/* grid1 */
+#grid1{
+    padding-top: 80px;
+    height: 940px; 
+    background-color:#58578b;
+ }
+ /* grid2 */
+#grid2{
+    padding-top: 80px;
+    background-color:#58578b;
+    height: 940px;
+}
+
+ /* grid3 */
+ #grid3{
+    padding-top: 80px;
+    height: 940px;
+    background-color: #44436c;
+ }
+ /* grid4 */
+ #grid4{
+    height: 940px;
+    padding-top: 80px;
+    background-color: #58578b;
+ }
+ 
+ .card-title{
+    font-size: 55px;
+    margin-top: 20px;
+    text-decoration: none;
+ }
+ .card-text{
+    font-size: 30px;
+    margin: 30px;
+ }
+ .img{
+    height:340px;
+    width: 340px;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px solid black;
+    border-radius: 50%;
+ }
+ #grid1 .btn, #grid2 .btn,#grid4 .btn {
+    border: 1px solid white;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    border-radius: 0px;
+    margin: 20px;
+    background-color: #58578b;
+ }
+ #grid3 .btn{
+    border: 1px solid white;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0px;
+    
+    background-color: #44436c;
+ }
+ #grid1 .btn:hover, #grid2 .btn:hover,#grid3 .btn:hover, #grid4 .btn:hover{
+    background-color: white;
+    color: #58578b;
+ }
+
+
+
+ /* buddha section */
+ #budha{
+    height: 800px;
+    width: 100%;
+    background-image: url('./images/what\ we\ think\ we\ become.webp');
+    background-position:center;
+    background-size: cover;
+text-align: center;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+ #budha h1{
+    font-size: 55px;
+ }
+ #budha {font-size: 28px;
+
+ }
+
+ /* Health is wealth picture */
+ #health{
+    height: 560px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('./images/healt\ is\ not\ valued.webp');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #health .col{
+    width: 100%;
+    padding: 0;
+ }
+ #health h1{
+    font-size: 50px;
+ }
+
+ /* contact */
+ #contact{
+    background-color: #44436c;
+    height: 600px;
+ }
+ form{
+    padding: 70px;
+    color: white;
+    background-color: #44436c;
+ }
+ #contact input,#contact textarea{
+    background-color: #44436c;
+   
+ }
+ 
+ input[type="text"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder { 
+    color: white;
+    opacity: 1;
+    font-size: 12px;
+ }
+ #textarea::placeholder{
+    color: white;
+    font-size: 12px;
+ }
+  
+ form label,form input,form textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+#contact h1{
+    font-size: 88px;
+    color: white;
+}
+
+#contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#leftside{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#leftside a{
+    margin: 5px;
+}
+form .btn{
+    background-color: white;
+    color: #44436c;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 0;
+    border: 1px solid white;
+}
+form .btn:hover{
+    color: white;
+    border: 1px solid white;
+}
+form .required::after{
+content: ' *';
+
+}
+/********************************** footer ***************************************/
+#footer{
+    background-color: #44436c;
+}
+#footer1{
+    height: auto;
+    background-color: #44436c;
+    padding-bottom: 30px;
+    }
+    #footerrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+#footer .col {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footertext a{
+    text-decoration: none;
+    color: #44436c;
+    font-size: 18px;
+}
+
+/***************** media query *****************/
+
+@media (max-width:850px){
+
+body{
+    align-items: center;
+}
+ #header{
+        padding: 0;
+ }
+ #header .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .email{
+    text-align: center;
+    font-size: 20px;
+ }
+ #email{
+    
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ 
+ #topmenu{
+    text-align: center;
+ }
+    #navbar{
+    width: 100%;
+    height: auto;
+    
+ }   
+#navbar img{
+    width: 200px;
+    height: 200px;
+}
+#navbar .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/************************* logo *********************/
+.logotext a{
+    font-size: 30px;
+    text-align: center;
+   
+}
+.logotext h5{
+    font-size: 25px;
+    text-align: center;
+}
+.logotext p{
+    font-size: 15px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+}
+.logotext{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+/************************ picture ***************************/
+#cont1 h1{
+    font-size: 50px;
+}
+#cont1 h2{
+    
+    font-size: 30px;
+}
+#home{
+    height: auto;
+    
+}
+#wheel {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+#wheel h3{
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+  
+#wheel p{
+    font-size: 15px;
+   
+}
+#wheel #btn{
+    margin-top:30px ;
+}
+#wheel .image{
+    margin-bottom: 30px;
+}
+#buttongroup .btn{
+    margin: 20px;
+    width: 40px;
+    /* background-color: transparent; */
+    border: none;
+    color: transparent;
+    }
+    #buttongroup{
+        position: absolute;
+        top: 1480px;
+        left: 5px;
+    }
+    #btn1{
+        position: absolute;
+        left: 17%;
+        top: 7px;
+    }
+    #btn2{
+        position: absolute;
+        left:2%;
+        top: 30px;
+    }
+    #btn3{
+        position: absolute;
+        left: 30%;
+        top: 30px;
+    }
+    #btn4{
+        position: absolute;
+        left: 0;
+        top: 80px;
+    }
+    #btn5{
+        position: absolute;
+        left: 35%;
+        top: 80px;
+    }
+    #btn6{
+        position: absolute;
+        left: 2%;
+        top: 130px;
+    }
+    #btn7{
+        position: absolute;
+        left: 30%;
+        top: 135px;
+    }
+    #btn8{
+        position: absolute;
+        left: 16%;
+        top: 145px;
+    }
+/* grid area */
+#grid1 h1{
+    font-size: 50px;
+    padding-top: 10px;
+}
+#grid1 p{
+    font-size: 30px;
+}
+#grid1,#grid2,#grid3,#grid4{
+    height: auto;
+    align-items: center;
+}
+#grid1 h5,#grid2 h5,#grid3 h5,#grid4 h5{
+    font-size:40px;
+}
+.card-text{
+    font-size: 30px;
+}
+
+.card-body{
+width: auto;
+/* margin: auto; */
+}
+
+/* budha quote */
+
+#budha{
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    background-position: 70%;
+    
+
+}
+#budha h1{
+    font-size: 35px;
+}
+/* Health s valued */
+#health h1{
+    font-size: 30px;
+}
+#health h2{
+    font-size: 20px;
+    
+}
+#health .col{
+    width:auto;
+}
+/* contact */
+#contact{
+    width: 100%;
+    height: auto;
+    padding-top:30px;   
+}
+
+#leftside h1{
+    font-size: 50px;
+    
+}
+#leftside {
+    text-align: center;
+    margin: 0;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    height: auto;
+}
+#footer1{
+    width:100%;
+    height:auto;
+}
+#footerrow{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#footerrow .col{
+    margin-top: 10px;
+    align-items: center;
+}
+#footertext{
+    width: auto;
+    height: auto;
+}
+
+
+
+
+}
